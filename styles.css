@@ -1,0 +1,69 @@
+.Header {
+  width: 100%;
+  height: 150px;
+  background-color: lightgrey;
+}
+.HeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 1080px;
+  margin: 0 auto;
+}
+.HeaderTitle {
+  font-size: 30px;
+}
+.HeaderNavList {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.HeaderNavListItem {
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.MainContainer {
+  width: 1080px;
+  margin: 50px auto;
+}
+.TitleWrapper {
+  border: 3px solid lightgray;
+  border-radius: 10px;
+  padding: 30px 25px;
+}
+.MainContainerTitle {
+margin: 0;
+}
+.MainWrapper {
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.MainSection {
+  border: 3px solid lightgray;
+  border-radius: 10px;
+  width: 60%;
+  height: 800px;
+}
+.SubSection {
+  border: 3px solid lightgray;
+  border-radius: 10px;
+  width: 20%;
+  height: 800px;
+  padding: 20px;
+}
+.MainContents {
+  margin: 50px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.MainContentsItem {
+  border: 1px solid lightgray;
+  height: 150px;
+}
+.SubSectionTitle {
+font-size: 20px;
+}
+.SubSectionlist {
+  padding-left: 20px;
+}
