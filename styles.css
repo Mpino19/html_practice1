@@ -1,6 +1,3 @@
-ul {
-  list-style: none;
-}
 .Header {
   width: 100%;
   height: 150px;
@@ -18,6 +15,7 @@ ul {
 .HeaderNavList {
   display: flex;
   align-items: center;
+  list-style: none;
 }
 .HeaderNavListItem {
   justify-content: space-between;
@@ -51,6 +49,7 @@ margin: 0;
   border-radius: 10px;
   width: 20%;
   height: 800px;
+  padding: 20px;
 }
 .MainContents {
   margin: 50px 50px;
@@ -61,4 +60,10 @@ margin: 0;
 .MainContentsItem {
   border: 1px solid lightgray;
   height: 150px;
+}
+.SubSectionTitle {
+font-size: 20px;
+}
+.SubSectionlist {
+  padding-left: 20px;
 }
