@@ -1,0 +1,25 @@
+ul {
+  list-style: none;
+}
+.Header {
+  width: 100%;
+  height: 150px;
+  background-color: lightgrey;
+}
+.HeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 1080px;
+  margin: 0 auto;
+}
+.HeaderTitle {
+  font-size: 30px;
+}
+.HeaderNavList {
+  display: flex;
+  align-items: center;
+}
+.HeaderNavListItem {
+  justify-content: space-between;
+  padding-left: 10px;
+}
