@@ -35,3 +35,30 @@ ul {
 .MainContainerTitle {
 margin: 0;
 }
+.MainWrapper {
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.MainSection {
+  border: 3px solid lightgray;
+  border-radius: 10px;
+  width: 60%;
+  height: 800px;
+}
+.SubSection {
+  border: 3px solid lightgray;
+  border-radius: 10px;
+  width: 20%;
+  height: 800px;
+}
+.MainContents {
+  margin: 50px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.MainContentsItem {
+  border: 1px solid lightgray;
+  height: 150px;
+}
